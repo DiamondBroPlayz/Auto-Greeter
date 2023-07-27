@@ -46,7 +46,7 @@ def get_names():
             file_object.write(names)
     return names
 
-# Function to display the greeting message and show a toast notification
+# Function to display the greeting message and show a windows notification
 def display_greeting(names):
     h = datetime.now().hour
     part_of_day = get_part_of_day(h)
